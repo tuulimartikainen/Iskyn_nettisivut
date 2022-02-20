@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Itä-Suomen katutanssiyhdistys</title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- (Verkon yli haettu) Bootstrapin tarvitsema JQuery-tiedosto.-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- Oma css-tiedosto -->
+        <link rel="stylesheet" href="tyyli.css">
+    </head>
+    <body>
+        <!--navigaatio-->
+        <nav class="navbar-inverse">  
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="box">
+                            <figure ><img src="images/ISKY%20-%20virallinen%20logo%20(RGB%20web%204%20transparent).png" alt="logo" width="100%" height="100%"></figure>				 
+                        </div>
+                    </div>
+                    <div class="col-sm-11 main-header">
+                        <h1>Itä-Suomen Katutanssiyhdistys ry</h1>
+                    </div>
+
+                    <div class="container-fluid">    
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>        
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                            </button>
+
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Etusivu</a></li>
+                                <li><a href="toiminta.html">Toiminta</a></li>
+                                <li><a href="historia.html">Historia</a></li>
+                                <li class="active"><a href="jasenyys.html">Jäsenyys</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <img src="images/JASENYYS_IMG_8045_Merovuo_2017.JPG" class="img-responsive" alt="Isky5vee">
+            </div>
+        </div>
+
+
+        <div class="container-fluid ">
+
+            <!--Osio sivun päätekstille --> 
+            <div class="row ">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 center">
+                    <h1>Jäsenyys</h1>
+
+                    <p>Itä-Suomen katutanssiyhdistys ry:hyn voi liittyä</p>          
+                    <ul>
+                        <li>varsinaiseksi jäseneksi 25€ /vuosi</li>
+                        <li>kannatusjäseneksi 50€ / vuosi</li>
+                        <li>syyskauden jäseneksi 15€ / elokuu-joulukuu</li>
+                    </ul>
+
+                    <p>Jäsenedut</p>          
+                    <ul>
+                        <li>Tuntuvat alennukset ISKY:n järjestämien workshopien maksuista</li>
+                        <li>Ilmaisia ISKY:n järjestämiä katutanssitapahtumia</li>
+                        <li>Ilmaista treenitilaa</li>
+                        <li>Pääset esiintymään ISKY:n tanssitempauksiin</li>
+                        <li>Pääset osaksi alueemme katutanssiskeneä!</li>
+                        <li>Jäsenmaksulla tuet, edistät ja kehität katutanssikulttuuria ja katutanssilajien harrastamista Joensuun alueella</li>
+                    </ul>
+
+                    <p>Jäseneksi liittyminen ja jäsenmaksun maksaminen</p>  
+                    <ul>
+                        <li>Täytä ja lähetä jäseneksi liittymislomake alla</li>
+                        <li>Maksa jäsenmaksu 25€, kannatusjäsenmaksu 50€ tai syyskauden jäsenmaksu 15€ yhdistyksen tilille.</li>
+                        <li>Tilinumero Itä-Suomen katutanssi ry: FI10 5770 0520 4733 38</li>
+                        <li>Laita viitenumeroksi 5555</li>
+                        <li>Jäsenyys on voimassa kuluvan vuoden loppuun.</li>
+                        <li>Jäsen on velvollinen ilmoittamaan yhdistykselle muutokset omissa yhteystiedoissa.</li>
+                    </ul>
+
+                    <div class="container">
+                        <h2>Liity jäseneksi</h2>
+                        <form action="/action_page.php">
+                            <p>Valitse jäsenyys:</p>
+                            <div class="radio">
+                                <label><input type="radio" name="optradio"> Varsinainen jäsen - 25€</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="optradio"> Kannatusjäsen - 50€</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="optradio"> Syyskauden jäsen - 15€</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="nimi">Nimi:</label>
+                                <input type="nimi" class="form-control" id="nimi" placeholder="Syötä nimi" name="nimi">
+                            </div>
+                            <div class="form-group">
+                                <label for="paikkakunta">Kotipaikkakunta:</label>
+                                <input type="paikkakunta" class="form-control" id="paikkakunta" placeholder="Syötä kotipaikkakunta" name="paikkakunta">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Sähköposti:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Syötä sähköposti" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="puhelin">Puhelinnumero:</label>
+                                <input type="puhelin" class="form-control" id="puhelin" placeholder="Syötä puhelinnumero" name="puhelin">
+                            </div>
+                            <div class="form-group">
+                                <label for="vuosi">Syntymävuosi:</label>
+                                <input type="vuosi" class="form-control" id="vuosi" placeholder="Syötä syntymävuosi" name="vuosi">
+                            </div>
+
+                            <button type="submit" class="btn btn-default">Lähetä</button>
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-3"></div>
+            </div>
+
+        </div>
+
+
+
+        <div class="container-fluid bottom-container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">
+                    <a href="https://www.instagram.com/iskygram/">
+                        <div class="box">
+                            <figure><img src="images/ISKYinsta200x200.JPEG" alt="Instagram" width="100%" height="100%"></figure>				 
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.facebook.com/itasuomenkatutanssiyhdistys">
+                        <div class="box">
+                            <figure ><img src="images/ISKYfacebook200x200.JPEG" alt="Facebook" width="100%" height="100%"></figure>				 
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <footer> <!--footer begins-->
+            <div class="copyright">
+                <p class="credit-id">© Itä-Suomen katutanssiyhdistys ry 2022. All rights reserved. Y-tunnus: 2510473-8 email: katutanssiyhdistys@gmail.com</p>
+            </div>
+        </footer> <!--end navigation-->
+
+    </body>
+</html>

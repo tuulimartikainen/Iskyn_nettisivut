@@ -1,0 +1,32 @@
+/* Omat tyylimääritykset */
+
+body {
+    background-color: snow;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.main-header {
+    color: #F7F5EE;
+}
+
+footer {
+    min-height: 2em;
+    background-color: #C91609;
+    color: #F7F5EE;
+    padding-top: 0.35em;
+    font-size: 1em;
+    text-align: center;
+}
+
+.center{
+    padding-bottom: 5em;
+    padding-top: 3em;
+}
+
+.bottom-container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #C91609;
+    color: #F7F5EE;
+}
+
